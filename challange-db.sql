@@ -52,17 +52,3 @@ CREATE TABLE tb_voto_sequence (
     next_val BIGINT NOT NULL
 );
 INSERT INTO tb_voto_sequence (next_val) VALUES (1);
-
-------------
-
-select * from pauta;
-
-select * from associado;
-
-select * from voto;
-
-
-insert into voto (associado,create_date,modification_date,option,pauta_id,id) values (?,?,?,?,?,?)
-
-
-DROP DATABASE softdesign_challenge;
